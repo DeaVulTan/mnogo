@@ -1,0 +1,257 @@
+body
+{
+	background:#ffffff;
+/*	background-image:url(img/backsnow.jpg);
+*/
+	color:#333C49;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-left:0;
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:0;
+}
+
+a
+{
+	text-decoration:none;
+	color:none;
+}
+
+.top_downloads_text
+{
+	border:none;
+	outline:none;
+}
+
+.top_downloads_text a
+{
+	color:#435C69;
+}
+
+#parent_categories_list a
+{
+	color: #000000;
+	display: block;
+	padding-left: 3px;
+	text-align:center;
+	line-height: 20px;
+	font-size:14px;
+}
+
+#parent_categories_list a#current 
+{
+	color: #c75c2d;
+	font-weight:bold;
+}
+
+
+#parent_categories_list a:hover
+{
+	background: #F3E69C;
+	color: #000000;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.child_categories_list
+{
+/*	font-family:Verdana, Arial, Helvetica, sans-serif;*/
+	font-size:12px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.child_categories_list a
+{
+	color:#225069;
+	display: inline-table;
+}
+
+
+.child_categories_list a#current
+{
+	color:#C75C2D;
+	font-weight:bold;
+}
+
+
+.header_text
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:16px;
+	text-align:center;
+}
+
+.top_categories_text
+{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-style:italic;
+}
+
+.top_categories_text a
+{
+	color:#435C69;
+}
+
+img
+{
+	border:none;
+	outline:none;
+	text-decoration:none;
+}
+
+.russ
+{
+	text-align:center;
+	font-size:14px;
+	display:block;
+}
+
+.file_desc_text
+{
+	text-align:justify;
+	font-size:14px;
+}
+
+.file_desc_header
+{
+	text-align:left;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.file_desc_header a
+{
+	color:#426b80;
+}
+
+.file_desc_date
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#456723;
+	text-align:center;
+}
+
+.fileinfo_header
+{
+	color:#1C5172;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.download_button
+{
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.download_button a
+{
+
+	color:#658290;
+}
+
+.download_button a#part
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#658290;
+}
+
+.page_num_row
+{
+	font-size:16px;
+	color:#1054CD;
+}
+
+.page_num_row a
+{
+	font-size:16px;
+	color:#1054CD;
+}
+
+.page_num_row a#current
+{
+	font-weight:bold;
+	color:#C75C2D;
+}
+
+.stat_text
+{
+	font-size:16px;
+	text-align:center;
+}
+
+.error
+{
+	font-size:14px;
+	text-align:center;
+	color:#EA5F68;
+}
+
+.ok
+{
+	font-size:14px;
+	text-align:center;
+	color:#009966;
+}
+
+.comment_header_text
+{
+	font-size:14px;
+	text-align:center;
+	color:#224488;
+}
+
+.comment_date
+{
+	font-size:11px;
+	text-align:left;
+	color:#AAAAAF;
+}
+
+.comment_added_by
+{
+	font-size:11px;
+	text-align:left;
+	color:#8888BB;
+}
+
+.comment_text
+{
+	font-size:12px;
+	text-align:left;
+	color:#444477;
+}
+
+.addition
+{
+	text-align:left;
+}
+
+.addition #header
+{
+	font-size:14px;
+}
+
+.addition #item
+{
+	color:#333C49;
+}
+
+.addition #item a
+{
+	font-size:13px;
+	color:#434CC9;
+}
+
+#file_desc_long
+{
+	text-align:justify;
+}

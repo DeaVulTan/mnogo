@@ -1,0 +1,7 @@
+AuthType basic
+AuthName "Staff only"
+AuthUserFile /var/www/test.stream.uz/htdocs/.htpasswd
+Require valid-user
+
+AddDefaultCharset utf-8
+

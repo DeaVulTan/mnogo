@@ -1,0 +1,120 @@
+body
+{
+	background:#FFFFFF;
+	font-family:"Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", sans-serif;
+	margin-left:0;
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:0;
+	font-size:12px; text-align:justify; text-decoration:none; color:#061730;
+}
+
+#footnote { font-style:italic; font-size:10px; color:#6AA5C8;}
+#error {text-align:center; font-size:12px; color:#E01414; padding-top:0px; padding-bottom:4px;}
+#ok {text-align:center; font-size:12px; color:#1E920A; padding-bottom:4px; padding-top:5px;}
+
+.cell_comments #comment_header_text {color:#0e5275; text-decoration:none; font-size:13px; text-align:left; padding-left:20px;}
+.cell_comments #comment_date {font-size:11px; padding-left:10px; text-align:left; color:#AAA;}
+.cell_comments #comment_author {font-size:11px; text-align:left; color:#777;}
+.cell_comments #comment_text {font-size:12px; text-align:justify; text-decoration:none; color:#061730; display:block; padding-bottom:5px;}
+
+.table_base {width:990px; border:none;}
+
+.table_add_comment{width:400px}
+.table_add_comment label{font-size:12px; text-align:justify; text-decoration:none; color:#061730;}
+.table_add_comment textarea{font-size:12px; text-align:justify; text-decoration:none; color:#061730;}
+
+.table_content{width:100%;}
+.table_content a img{outline:none; border:none;}
+.table_content #cell_filelist_header {height:20px;}
+.table_content #cell_filelist_header a{color:#0e5275; text-decoration:none; font-size:13px; text-align:left; padding-left:20px; display:block;}
+.table_content #cell_filelist_header a:hover{color:#33a5c1;}
+.table_content #cell_filelist_header a:active{color:#dea828;}
+.table_content #cell_filelist_description {padding-bottom:5px;}
+.table_content #cell_filelist_description label{font-size:12px; text-align:justify; text-decoration:none; color:#061730;}
+.table_content #date{background-image:url(img/header_date.jpg); background-repeat:repeat-x; height:15px; vertical-align:top;}
+.table_content #date div{font-size:13px; text-align:right; padding-right:25px; color:#104c60;}
+.table_content #date label{background-color:#FFF; padding-left:5px; padding-right:5px;}
+.table_content #header{background-image:url(img/header_table.jpg); background-repeat:repeat-x; height:30px;}
+.table_content #header label{font-size:13px; padding-left:16px; text-align:left; color:#FFF;}
+.table_content #notfound {color:#0e5275; font-size:13px; text-align:center; padding-top:20px;}
+.table_content #pages{text-align:center; margin-top:15px; margin-bottom:2px;}
+.table_content #pages a{color:#0e5275; text-decoration:none; font-size:15px; text-align:left; padding-left:10px; padding-right:10px;}
+.table_content #pages a#current{color:#da981a; font-size:18px;}
+.table_content #fileinfo_data {color:#687b83; font-size:11px;}
+.table_content #fileinfo_data a{color:#108fc4; text-decoration:none; font-size:13px; text-align:left;}
+.table_content #fileinfo_data a:hover{color:#5bc3ee;}
+.table_content #fileinfo_data a:active{color:#dea828;}
+.table_content #fileinfo_description {font-size:12px; text-align:justify; text-decoration:none; color:#061730;}
+.table_content #fileinfo_header {line-height:16px; margin-top:5px; margin-bottom:3px; padding-left:20px; font-size:14px; text-align:left; display:block;}
+.table_content #fileinfo_header a{color:#0e5275; text-decoration:none; padding-bottom:10px;}
+.table_content #fileinfo_header a:hover{color:#33a5c1;}
+.table_content #fileinfo_header a:active{color:#dea828;}
+.table_content #fileinfo_title a{color:#0e5275; text-decoration:none; font-size:14px; text-align:left;}
+.table_content #item {vertical-align:top;}
+
+.table_enterkey {width:580px;}
+.table_enterkey #cell1 {width:210px; height:auto; background:none; text-align:right;}
+.table_enterkey #cell2 {width:370px; height:auto; background:none; text-align:left;}
+
+.table_footer {width:990px; height:55px; border:none;}
+.table_footer #cell1{width:990px; background-image:url(img/footer.jpg);}
+.table_footer #footer_text{margin-left:15px; margin-top:20px; font-size:9px; color:#a9dbe7;}
+
+.table_header {width:990px; height:183px; border:none;}
+.table_header a {color:#e1d6b0; text-decoration:none; cursor: pointer;}
+.table_header a:hover {color:#feecb5;}
+.table_header a:active {color:#FFF;}
+.table_header #cell1{width:990px; height:134px; background-image:url(img/header1.jpg); background-repeat:no-repeat; padding:0px 0px 0px 0px;}
+.table_header #cell2{width:990px; height:49px;  background-image:url(img/header2.jpg); background-repeat:no-repeat; padding:0px 0px 0px 0px; vertical-align:top;}
+.table_header #banner {margin-left:504px; margin-top:6px; margin-bottom:11px; width: 468px; background: #FFF;}
+.table_header form {font-size:12px; color:#d5ecf5;}
+.table_header #auth_field {background:none; border:solid 1px #d5ecf5; color:#d8f0f9; margin-right:5px; width:120px;}
+.table_header #auth_field:focus {background:#64a4bf;}
+.table_header #auth_button {background:#6fb9d6; border:solid 1px #d5ecf5; color:#213b45; margin-right:75px;}
+.table_header #auth_button:hover {background:#9bdaf3;}
+.table_header #auth_button:active {background:#f3dd9b;}
+.table_header #auth_success {margin-right:140px;}
+.table_header #error {padding-bottom:0px;}
+.table_header #reg_button {background:#6fb9d6; border:solid 1px #d5ecf5; color:#213b45; margin-right:75px;}
+.table_header #reg_button:hover {background:#9bdaf3;}
+.table_header #reg_button:active {background:#f3dd9b;}
+.table_header #search_field {background:none; border:solid 1px #d5ecf5; color:#d8f0f9; margin-right:5px; width:170px;}
+.table_header #search_field:focus {background:#64a4bf;}
+.table_header #search_button {background:#6fb9d6; border:solid 1px #d5ecf5; color:#213b45; margin-right:15px;}
+.table_header #search_button:hover {background:#9bdaf3;}
+.table_header #search_button:active {background:#f3dd9b;}
+
+.table_side{width:100%;}
+.table_side #header{background-image:url(img/header_table.jpg); background-repeat:repeat-x; height:30px; vertical-align:middle;}
+.table_side #header label{font-size:13px; padding-left:16px; text-align:left; color:#FFF;}
+.table_side #item {vertical-align:top;}
+.table_side #item img{outline:none; border:none; padding-top:5px; padding-bottom:5px;}
+.table_side #parent_category a {color: #2D4455; display: block; padding-left: 10px; text-align:left; line-height: 23px; font-size:12px; text-decoration:none;}
+.table_side #parent_category a#current {background: #c5e9fd; font-size:13px; color:#0e2f2c;}
+.table_side #parent_category a:hover {background: #feecb5; color: #000000; cursor: pointer;}
+.table_side #child_category a {color: #486072; display: block; padding-left: 20px; text-align:left; padding-bottom:3px; padding-top:3px; font-size:11px; text-decoration:none; background-color:#dfeef6;}
+.table_side #child_category a#current {font-size:11px; color:#229a99;}
+.table_side #child_category a:hover {background: #feecb5; color: #000000; cursor: pointer;}
+.table_side #list a {color: #2D4455; display:block; padding-left:5px; padding-right: 5px; padding-bottom:3px; padding-top:3px; text-align:left; font-size:12px; text-decoration:none;}
+.table_side #list a#current {background: #c5e9fd; font-size:13px; color:#0e2f2c;}
+.table_side #list a:hover {background: #feecb5; color: #000000; cursor: pointer;}
+
+.table_main {width:990px; border:none;}
+.table_main #mcell1{width:5px; background-image:url(img/br_left.jpg); background-repeat:repeat-y;}
+.table_main #mcell2{width:183px; vertical-align:top; text-align:justify;}
+.table_main #mcell3{width:10px;}
+.table_main #mcell4{vertical-align:top; text-align:justify;}
+.table_main #mcell5{width:10px;}
+.table_main #mcell6{width:183px; vertical-align:top; text-align:justify;}
+.table_main #mcell7{width:5px; background-image:url(img/br_right.jpg); background-repeat:repeat-y; height:768px;}
+
+.table_registration_data {width:580px;}
+.table_registration_data #cell1 {width:240px; height:auto; background:none; text-align:right;}
+.table_registration_data #cell2 {width:340px; height:auto; background:none; text-align:left;}
+.table_registration_data a{color:#061730; text-decoration:none;}
+.table_registration_data a:hover{color:#6fb9d6;}
+
+.table_requestkey {width:600px;}
+.table_requestkey #cell1 {width:220px; height:auto; background:none; text-align:right;}
+.table_requestkey #cell2 {width:380px; height:auto; background:none; text-align:left;}
